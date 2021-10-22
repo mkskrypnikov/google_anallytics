@@ -19,7 +19,7 @@ def get_reports():
 def main():
     try:
         get_reports()
-    except
+    except:
         get_reports()
 
 if __name__ == '__main__':
