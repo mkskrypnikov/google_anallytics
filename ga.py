@@ -9,7 +9,7 @@ def get_reports():
     dimmensions_ga = 'ga:date,ga:sourceMedium'
     filters_ga = 'ga:medium!~test;ga:source=~yandex'
 
-    need_auth = 'yes'
+    need_auth = 'no'
     LastDate = 0
     replacement = 'no'
 
