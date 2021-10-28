@@ -1,14 +1,12 @@
 import argparse
-from apiclient.discovery import build
+from googleapiclient.discovery import build
 import httplib2
 from oauth2client import client
 from oauth2client import file
 from oauth2client import tools
-from pprint import pprint
 import pandas as pd
 import json
 import requests
-from requests.exceptions import ConnectionError
 from time import sleep
 from datetime import date, timedelta, datetime
 import datetime

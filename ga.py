@@ -1,5 +1,8 @@
 import mytools
 #https://ga-dev-tools.web.app/dimensions-metrics-explorer/
+#!pip install apiclient
+#!pip install --upgrade google-api-python-client
+#!pip install oauth2client
 
 def get_reports():
     ga_id = 'ххххх'
@@ -9,7 +12,7 @@ def get_reports():
     dimmensions_ga = 'ga:date,ga:sourceMedium'
     filters_ga = 'ga:medium!~test;ga:source=~yandex'
 
-    need_auth = 'no'
+    need_auth = 'yes'
     LastDate = 0
     replacement = 'no'
 
